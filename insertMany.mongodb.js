@@ -7,7 +7,7 @@ use(database);
 db[collection].insertMany(
     [
         {
-            "codigo": "001",
+            "codigo": 1,
             "nome": "Amoxicilina",
             "valor": 45.00,
             "quantidade_em_estoque": 50,
@@ -16,7 +16,7 @@ db[collection].insertMany(
             "descricao": "Utilizado no tratamento de infecções bacterianas."
         },
         {
-            "codigo": "002",
+            "codigo": 2,
             "nome": "Ciprofloxacino",
             "valor": 55.00,
             "quantidade_em_estoque": 30,
@@ -25,7 +25,7 @@ db[collection].insertMany(
             "descricao": "Indicado para infecções do trato urinário."
         },
         {
-            "codigo": "003",
+            "codigo": 3,
             "nome": "Azitromicina",
             "valor": 60.00,
             "quantidade_em_estoque": 40,
@@ -34,7 +34,7 @@ db[collection].insertMany(
             "descricao": "Usado no tratamento de infecções respiratórias."
         },
         {
-            "codigo": "004",
+            "codigo": 4,
             "nome": "Doxiciclina",
             "valor": 50.00,
             "quantidade_em_estoque": 25,
@@ -43,7 +43,7 @@ db[collection].insertMany(
             "descricao": "Eficaz contra várias infecções bacterianas."
         },
         {
-            "codigo": "005",
+            "codigo": 5,
             "nome": "Clindamicina",
             "valor": 70.00,
             "quantidade_em_estoque": 20,
@@ -52,7 +52,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratar infecções graves."
         },
         {
-            "codigo": "006",
+            "codigo": 6,
             "nome": "Metronidazol",
             "valor": 40.00,
             "quantidade_em_estoque": 45,
@@ -61,7 +61,7 @@ db[collection].insertMany(
             "descricao": "Tratamento de infecções parasitárias e bacterianas."
         },
         {
-            "codigo": "007",
+            "codigo": 7,
             "nome": "Cefalexina",
             "valor": 35.00,
             "quantidade_em_estoque": 60,
@@ -70,7 +70,7 @@ db[collection].insertMany(
             "descricao": "Usado para infecções de pele e tecidos moles."
         },
         {
-            "codigo": "008",
+            "codigo": 8,
             "nome": "Ceftriaxona",
             "valor": 80.00,
             "quantidade_em_estoque": 15,
@@ -79,7 +79,7 @@ db[collection].insertMany(
             "descricao": "Tratamento de infecções graves."
         },
         {
-            "codigo": "009",
+            "codigo": 9,
             "nome": "Nitrofurantoína",
             "valor": 30.00,
             "quantidade_em_estoque": 55,
@@ -88,7 +88,7 @@ db[collection].insertMany(
             "descricao": "Usado no tratamento de infecções urinárias."
         },
         {
-            "codigo": "010",
+            "codigo": 10,
             "nome": "Vancomicina",
             "valor": 90.00,
             "quantidade_em_estoque": 10,
@@ -97,7 +97,7 @@ db[collection].insertMany(
             "descricao": "Eficaz contra infecções por estafilococos."
         },
         {
-            "codigo": "011",
+            "codigo": 11,
             "nome": "Ampicilina",
             "valor": 65.00,
             "quantidade_em_estoque": 35,
@@ -106,7 +106,7 @@ db[collection].insertMany(
             "descricao": "Tratamento de infecções respiratórias e urinárias."
         },
         {
-            "codigo": "012",
+            "codigo": 12,
             "nome": "Roxitromicina",
             "valor": 50.00,
             "quantidade_em_estoque": 25,
@@ -115,7 +115,7 @@ db[collection].insertMany(
             "descricao": "Usado para infecções do trato respiratório."
         },
         {
-            "codigo": "013",
+            "codigo": 13,
             "nome": "Gentamicina",
             "valor": 55.00,
             "quantidade_em_estoque": 20,
@@ -124,7 +124,7 @@ db[collection].insertMany(
             "descricao": "Tratamento de infecções graves."
         },
         {
-            "codigo": "014",
+            "codigo": 14,
             "nome": "Tetraciclina",
             "valor": 30.00,
             "quantidade_em_estoque": 40,
@@ -133,7 +133,7 @@ db[collection].insertMany(
             "descricao": "Utilizado no tratamento de acne e infecções."
         },
         {
-            "codigo": "015",
+            "codigo": 15,
             "nome": "Fosfomicina",
             "valor": 25.00,
             "quantidade_em_estoque": 30,
@@ -142,7 +142,7 @@ db[collection].insertMany(
             "descricao": "Usado para infecções urinárias."
         },
         {
-            "codigo": "016",
+            "codigo": 16,
             "nome": "Alprazolam",
             "valor": 55.00,
             "quantidade_em_estoque": 40,
@@ -151,7 +151,7 @@ db[collection].insertMany(
             "descricao": "Utilizado para o tratamento de ansiedade."
         },
         {
-            "codigo": "017",
+            "codigo": 17,
             "nome": "Fluoxetina",
             "valor": 70.00,
             "quantidade_em_estoque": 45,
@@ -160,7 +160,7 @@ db[collection].insertMany(
             "descricao": "Medicamento antidepressivo."
         },
         {
-            "codigo": "018",
+            "codigo": 18,
             "nome": "Venlafaxina",
             "valor": 85.00,
             "quantidade_em_estoque": 28,
@@ -169,7 +169,7 @@ db[collection].insertMany(
             "descricao": "Usado para depressão e ansiedade."
         },
         {
-            "codigo": "019",
+            "codigo": 19,
             "nome": "Buspirona",
             "valor": 60.00,
             "quantidade_em_estoque": 30,
@@ -178,7 +178,7 @@ db[collection].insertMany(
             "descricao": "Indicado para transtornos de ansiedade."
         },
         {
-            "codigo": "020",
+            "codigo": 20,
             "nome": "Lisdexanfetamina",
             "valor": 210.00,
             "quantidade_em_estoque": 10,
@@ -187,7 +187,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratamento de TDAH."
         },
         {
-            "codigo": "021",
+            "codigo": 21,
             "nome": "Carbamazepina",
             "valor": 90.00,
             "quantidade_em_estoque": 20,
@@ -196,7 +196,7 @@ db[collection].insertMany(
             "descricao": "Indicado para epilepsia e neuralgia."
         },
         {
-            "codigo": "022",
+            "codigo": 22,
             "nome": "Gabapentina",
             "valor": 100.00,
             "quantidade_em_estoque": 15,
@@ -205,7 +205,7 @@ db[collection].insertMany(
             "descricao": "Utilizado para dor neuropática."
         },
         {
-            "codigo": "023",
+            "codigo": 23,
             "nome": "Pregabalina",
             "valor": 110.00,
             "quantidade_em_estoque": 18,
@@ -214,7 +214,7 @@ db[collection].insertMany(
             "descricao": "Indicado para dor neuropática e transtornos de ansiedade."
         },
         {
-            "codigo": "024",
+            "codigo": 24,
             "nome": "Methylphenidate",
             "valor": 160.00,
             "quantidade_em_estoque": 12,
@@ -223,7 +223,7 @@ db[collection].insertMany(
             "descricao": "Usado no tratamento do TDAH."
         },
         {
-            "codigo": "025",
+            "codigo": 25,
             "nome": "Zolpidem",
             "valor": 95.00,
             "quantidade_em_estoque": 22,
@@ -232,7 +232,7 @@ db[collection].insertMany(
             "descricao": "Indicado para insônia."
         },
         {
-            "codigo": "026",
+            "codigo": 26,
             "nome": "Esitalopram",
             "valor": 80.00,
             "quantidade_em_estoque": 25,
@@ -241,7 +241,7 @@ db[collection].insertMany(
             "descricao": "Antidepressivo usado para tratar depressão e ansiedade."
         },
         {
-            "codigo": "027",
+            "codigo": 27,
             "nome": "Sertralina",
             "valor": 70.00,
             "quantidade_em_estoque": 40,
@@ -250,7 +250,7 @@ db[collection].insertMany(
             "descricao": "Indicado para tratamento de depressão e transtornos de ansiedade."
         },
         {
-            "codigo": "027",
+            "codigo": 28,
             "nome": "Sertralina",
             "valor": 70.00,
             "quantidade_em_estoque": 40,
@@ -259,7 +259,7 @@ db[collection].insertMany(
             "descricao": "Indicado para tratamento de depressão e transtornos de ansiedade."
         },
         {
-            "codigo": "028",
+            "codigo": 29,
             "nome": "Bupropiona",
             "valor": 130.00,
             "quantidade_em_estoque": 14,
@@ -268,7 +268,7 @@ db[collection].insertMany(
             "descricao": "Usado no tratamento da depressão e para ajudar a parar de fumar."
         },
         {
-            "codigo": "029",
+            "codigo": 30,
             "nome": "Aripiprazol",
             "valor": 175.00,
             "quantidade_em_estoque": 16,
@@ -277,7 +277,7 @@ db[collection].insertMany(
             "descricao": "Indicado para esquizofrenia e transtornos bipolares."
         },
         {
-            "codigo": "030",
+            "codigo": 31,
             "nome": "Clobazam",
             "valor": 85.00,
             "quantidade_em_estoque": 20,
@@ -286,7 +286,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratamento de epilepsia."
         },
         {
-            "codigo": "031",
+            "codigo": 32,
             "nome": "Lithium Carbonate",
             "valor": 90.00,
             "quantidade_em_estoque": 18,
@@ -295,7 +295,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratamento de transtorno bipolar."
         },
         {
-            "codigo": "032",
+            "codigo": 33,
             "nome": "Vigabatrin",
             "valor": 150.00,
             "quantidade_em_estoque": 12,
@@ -304,7 +304,7 @@ db[collection].insertMany(
             "descricao": "Indicado para epilepsia resistente a outros tratamentos."
         },
         {
-            "codigo": "033",
+            "codigo": 34,
             "nome": "Sodium Oxybate",
             "valor": 250.00,
             "quantidade_em_estoque": 8,
@@ -313,7 +313,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratar narcolepsia."
         },
         {
-            "codigo": "034",
+            "codigo": 35,
             "nome": "Naltrexone",
             "valor": 120.00,
             "quantidade_em_estoque": 20,
@@ -322,7 +322,7 @@ db[collection].insertMany(
             "descricao": "Utilizado no tratamento de dependência de álcool e opioides."
         },
         {
-            "codigo": "035",
+            "codigo": 36,
             "nome": "Oxazepam",
             "valor": 65.00,
             "quantidade_em_estoque": 35,
@@ -331,7 +331,7 @@ db[collection].insertMany(
             "descricao": "Indicado para o tratamento de ansiedade."
         },
         {
-            "codigo": "036",
+            "codigo": 37,
             "nome": "Chlordiazepoxide",
             "valor": 75.00,
             "quantidade_em_estoque": 27,
@@ -340,7 +340,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratar ansiedade e sintomas de abstinência."
         },
         {
-            "codigo": "037",
+            "codigo": 38,
             "nome": "Tramadol",
             "valor": 80.00,
             "quantidade_em_estoque": 30,
@@ -349,7 +349,7 @@ db[collection].insertMany(
             "descricao": "Analgesia para dor moderada a grave."
         },
         {
-            "codigo": "038",
+            "codigo": 39,
             "nome": "Codeína",
             "valor": 60.00,
             "quantidade_em_estoque": 50,
@@ -358,7 +358,7 @@ db[collection].insertMany(
             "descricao": "Usado como analgésico e antitussígeno."
         },
         {
-            "codigo": "039",
+            "codigo": 40,
             "nome": "Fentanil",
             "valor": 300.00,
             "quantidade_em_estoque": 10,
@@ -367,7 +367,7 @@ db[collection].insertMany(
             "descricao": "Analgesia potente para dor intensa."
         },
         {
-            "codigo": "040",
+            "codigo": 41,
             "nome": "Methadone",
             "valor": 90.00,
             "quantidade_em_estoque": 15,
@@ -376,7 +376,7 @@ db[collection].insertMany(
             "descricao": "Usado no tratamento de dependência de opioides."
         },
         {
-            "codigo": "041",
+            "codigo": 42,
             "nome": "Citalopram",
             "valor": 75.00,
             "quantidade_em_estoque": 35,
@@ -385,7 +385,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratar depressão e transtornos de ansiedade."
         },
         {
-            "codigo": "042",
+            "codigo": 43,
             "nome": "Paracetamol",
             "valor": 20.00,
             "quantidade_em_estoque": 100,
@@ -394,7 +394,7 @@ db[collection].insertMany(
             "descricao": "Usado para aliviar dores e reduzir febre."
         },
         {
-            "codigo": "043",
+            "codigo": 44,
             "nome": "Ibuprofeno",
             "valor": 25.00,
             "quantidade_em_estoque": 80,
@@ -403,7 +403,7 @@ db[collection].insertMany(
             "descricao": "Utilizado para dor e inflamação."
         },
         {
-            "codigo": "044",
+            "codigo": 45,
             "nome": "Loratidina",
             "valor": 30.00,
             "quantidade_em_estoque": 75,
@@ -412,7 +412,7 @@ db[collection].insertMany(
             "descricao": "Usado para alívio de alergias."
         },
         {
-            "codigo": "045",
+            "codigo": 46,
             "nome": "Omeprazol",
             "valor": 40.00,
             "quantidade_em_estoque": 50,
@@ -421,7 +421,7 @@ db[collection].insertMany(
             "descricao": "Usado para tratar refluxo gastroesofágico."
         },
         {
-            "codigo": "046",
+            "codigo": 47,
             "nome": "Metformina",
             "valor": 35.00,
             "quantidade_em_estoque": 60,
@@ -430,7 +430,7 @@ db[collection].insertMany(
             "descricao": "Utilizado no tratamento do diabetes tipo 2."
         },
         {
-            "codigo": "047",
+            "codigo": 48,
             "nome": "Simvastatina",
             "valor": 50.00,
             "quantidade_em_estoque": 55,
@@ -439,7 +439,7 @@ db[collection].insertMany(
             "descricao": "Usado para redução do colesterol."
         },
         {
-            "codigo": "048",
+            "codigo": 49,
             "nome": "Atenolol",
             "valor": 45.00,
             "quantidade_em_estoque": 40,
@@ -448,22 +448,13 @@ db[collection].insertMany(
             "descricao": "Usado no tratamento da hipertensão."
         },
         {
-            "codigo": "049",
+            "codigo": 50,
             "nome": "Losartana",
             "valor": 50.00,
             "quantidade_em_estoque": 30,
             "fabricante": "Merck",
             "categoria": "Antihipertensivo",
             "descricao": "Utilizado para tratar hipertensão."
-        },
-        {
-            "codigo": "050",
-            "nome": "Salmeterol",
-            "valor": 70.00,
-            "quantidade_em_estoque": 20,
-            "fabricante": "GlaxoSmithKline",
-            "categoria": "Broncodilatador",
-            "descricao": "Usado no tratamento da asma."
         },
     ]
 )
